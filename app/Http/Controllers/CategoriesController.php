@@ -8,6 +8,7 @@ use App\Models\Topic;
 use App\Models\Category;
 use App\Models\User;
 use App\Models\Link;
+use App\Models\KidsImages;
 
 class CategoriesController extends Controller
 {
@@ -24,4 +25,10 @@ class CategoriesController extends Controller
         // 传参变量到模板中
         return view('topics.index', compact('topics', 'category', 'active_users', 'links'));
     }
+    public function test()
+    {
+         $KidsImages = $KidsImages->kidsimages();
+        return $this->response->item($KidsImages, new TopicTransformer());
+    }
+
 }
