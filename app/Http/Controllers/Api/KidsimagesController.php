@@ -4,12 +4,23 @@ namespace App\Http\Controllers\Api;
 use App\Models\KidsImages;
 use Illuminate\Http\Request;
 use App\Transformers\KidsImagesTransformer;
-use App\Http\Requests\Api\KidsImagesRequest;
+
 class KidsimagesController extends Controller
 {
     //
-    public function test(KidsImages $KidsImages)
+    public function getswiper(Request $request,KidsImages $KidsImages)
     {
-    	 return $this->response->collection(KidsImages::all(), new KidsImagesTransformer());
+        $query = $KidsImages->query();
+
+  
+        if ($category = $request->category) {
+            $query->where('category', $category);
+        }
+
+ 
+        $KidsImages = $query->paginate(20);
+
+        return $this->response->item($KidsImages, new KidsImagesTransformer());
+
     }
 }

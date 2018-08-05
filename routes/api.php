@@ -61,8 +61,10 @@ $api->version('v1', [
         'expires' => config('api.rate_limits.access.expires'),
     ], function ($api) {
         // test
-        $api->get('test', 'KidsImagesController@test')
-            ->name('api.categories.index');
+                    // 提交订单信息
+        $api->post('order', 'orderController@store')
+          ->name('api.order.store');
+        $api->get('getswiper/{category}', 'KidsImagesController@getswiper');
         // 游客可以访问的接口
         $api->get('categories', 'CategoriesController@index')
             ->name('api.categories.index');

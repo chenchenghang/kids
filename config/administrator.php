@@ -9,7 +9,7 @@ return array(
     'domain' => '',
 
     // 应用名称，在页面标题和左上角站点名称处显示
-    'title' => env('APP_NAME', 'Laravel'),
+    'title' => env('APP_NAME', '暖白后台管理'),
 
     // 模型配置信息文件存放目录
     'model_config_path' => config_path('administrator'),
@@ -46,6 +46,7 @@ return array(
             'categories',
             'topics',
             'replies',
+            'kidsimages',
         ],
         '站点管理' => [
             'settings.site',
