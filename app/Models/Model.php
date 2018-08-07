@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 class Model extends EloquentModel
 {	
-	protected $table = 'users'; 
     public function scopeRecent($query)
     {
         return $query->orderBy('id', 'desc');

@@ -1,0 +1,125 @@
+[33mcommit 0ed53ec1f12dc9ad87f6faa72d2a720da1a6d805[m[33m ([m[1;36mHEAD -> [m[1;32mapi[m[33m, [m[1;32maudio[m[33m, [m[1;32maip[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Wed Aug 1 07:32:03 2018 +0000
+
+    add api  kidsimage
+
+[33mcommit 814f9311002ce8f63582ac7a04d87219b426f189[m[33m ([m[1;31morigin/api[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jul 24 14:39:45 2018 +0000
+
+    kids  push tengxunyun
+
+[33mcommit d32c947371d0c873276597ff9d7b42eed91efc37[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Thu May 31 18:09:16 2018 +0800
+
+    update phone regex
+
+[33mcommit abe70be845686b497c303f33c99ba188c9eb2256[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Fri May 25 12:15:50 2018 +0800
+
+    update ImageRequest
+
+[33mcommit 62190a85ca980b9510f61e14d013f81a3cc35b17[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Mon May 14 09:57:42 2018 +0800
+
+    update composer
+
+[33mcommit 88db2f753e9e557ab00f0a6263d1b2989105b9ab[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Wed Apr 18 16:55:11 2018 +0800
+
+    fix image controller
+
+[33mcommit 472767a1fa20e3cebb63081e184c701904bfea50[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Wed Apr 18 14:18:28 2018 +0800
+
+    update .env.example
+
+[33mcommit 1471012732bd96e89bbe8b4d622b5fa378830b49[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Wed Apr 18 12:34:14 2018 +0800
+
+    update .env.example
+
+[33mcommit 3fe7f6ec3e38001d00eda8486a0127163c6111b2[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Tue Apr 17 17:13:04 2018 +0800
+
+    captcha_code lower
+
+[33mcommit 4a88706907d88a34463a0941ddba04e4bc742e4c[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Mon Mar 19 10:38:55 2018 +0800
+
+    composer update
+
+[33mcommit f58f8870c5fee3f1b3a363f05003848489887284[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Tue Mar 6 12:14:16 2018 +0800
+
+    update vendor
+
+[33mcommit dfe5b9dd400b83e5e6a82e59d52043f3d4cc88cb[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Wed Feb 28 15:45:25 2018 +0800
+
+    add ActingJWTUser trait
+
+[33mcommit c4d3bccbae38e8ab2aa250d35aadd6e941698210[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Tue Feb 27 10:43:46 2018 +0800
+
+    topic test
+
+[33mcommit 4f89b7477f17d9cda4c337da7066cdc5944015aa[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Fri Feb 23 22:54:10 2018 +0800
+
+    push notification
+
+[33mcommit b420d304f2f969927329692706702ff31a88209c[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Fri Feb 23 16:29:23 2018 +0800
+
+    locale
+
+[33mcommit adb2674623a506844eb9edb234d751c1a2cf7a37[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Mon Feb 12 23:57:21 2018 +0800
+
+    links and actived users
+
+[33mcommit b1e449b2b0e941f30920e6073dc49347b2cd574d[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Thu Feb 8 23:35:58 2018 +0800
+
+    include user roles
+
+[33mcommit c467f6278363222bcb98716a3a6aba3c16f60180[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Thu Feb 8 22:44:51 2018 +0800
+
+    permissions index
+
+[33mcommit 757daec3a7bff0669d8c0df41e61ee06cf5a0e20[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Fri Feb 2 15:53:33 2018 +0800
+
+    command bug
+
+[33mcommit 9007fe9593c460a564ef5868da42c68754578f06[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Fri Feb 2 12:10:58 2018 +0800
+
+    authorization bug fix
+
+[33mcommit aeb51a39bf96259d916d93e82442454642e5c6d3[m
+Author: Yu Li <liyu001989@gmail.com>
+Date:   Mon Jan 29 11:17:59 2018 +0800
+
+    migration bug fix

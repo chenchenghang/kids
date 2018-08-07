@@ -17,7 +17,9 @@ class OrderController extends Controller
         $Order->userid = $request->userid;
         $Order->babybirthday = date("Y-m-d",strtotime($request->babybirthday)); 
         $Order->parentalphone = $request->userid;
-        $Order->package = $request->isshow;
+        $Order->package = $request->parentalphone;
+        $Order->isshow = $request->isshow;
+        $Order->babyname = '$request->isshow;';
         $Order->isshow = $request->isshow;
  
         $Order->save();
